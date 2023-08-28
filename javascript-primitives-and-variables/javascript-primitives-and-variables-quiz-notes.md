@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the purpose of variables?
-  To store and manipulate values for use within code.
+  To store and manipulate values for later reference and use within code.
 
 - How do you **declare** a variable?
   Using const, let, or in rarer circustances, var.

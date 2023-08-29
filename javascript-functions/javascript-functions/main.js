@@ -12,7 +12,6 @@ function greet(name) {
 greet('Chauncey');
 
 function getArea(width, height) {
-  // const areaGot=width*height
   console.log(
     'The area for an object given a width of ' +
       width +
@@ -39,7 +38,6 @@ function getFirstName(person) {
 getFirstName({ firstName: 'Steve', lastName: 'Perry' });
 
 function getLastElement(array) {
-  // console.log('The last item in the array is ' + (array[array.length-1]));
   console.log(
     'The last item in the array of stuff I came up with is ' + array.at(-1)
   );

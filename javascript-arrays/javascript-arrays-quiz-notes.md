@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using brackets to declare the array
 
 - How are arrays different from "plain" objects?
-  They are ordered in a defined fashion
+  They are ordered in a defined fashion with prenamed keys
 
 - What number represents the first index of an array?
   0

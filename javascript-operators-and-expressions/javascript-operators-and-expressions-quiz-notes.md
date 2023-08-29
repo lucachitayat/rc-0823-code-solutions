@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
-  number
+  number, string, NaN
 
 - What is string concatenation?
   combining two pieces of text into one

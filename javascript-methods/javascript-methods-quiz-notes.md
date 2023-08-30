@@ -5,13 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do we log things to the console?
-  Using the log method of the console object
+  Logging things to console allows us to see the state of something within the code, allowing us to follow its trail and make it easier to debug.
 
 - What is a method?
-  A method is function but built as a property of an object
+  A method is function built as a property of an object, and can be universally called on objects using the designated syntax.
 
 - How is a method different from any other function?
-  They can be called without being defined
+  They can be called without being defined, they are globally callable.
 
 - How do you remove the last element from an array?
   array.pop()
@@ -40,11 +40,13 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Is the return value of a function or method useful in every situation?
   Is it? Maybe not. Should it be? I would think yes.
 
+      ANSWER - no. Maybe you just want to discards with things like .splice() or .pop(), which changes an array but we do not want the value that we've removed.
+
 - Roughly how many array methods are there according to the MDN Web docs?
   43?
 
 - What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
-  MDN?
+  MDN? w3 as a secondary resource
 
 ## Notes
 

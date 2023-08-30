@@ -76,7 +76,7 @@ console.log(
 );
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person.age > 16 && person.age >= 21) {
+  if (person.age >= 16 && person.age >= 21) {
     return true;
   } else {
     return false;

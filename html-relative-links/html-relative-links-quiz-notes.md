@@ -5,13 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do you indicate the relative link to a parent directory?
-  ../folderwanted/file.html
+  ../file.html (or ../folderWanted/fileWanted.html)
 
 - How do you indicate the relative link to a child directory?
   folderwanted/file.html
 
 - How do you indicate the relative link to a grand parent directory?
-  grandparentwanted/folderwanted/file.html
+  ../../file.html (or ../../folderWanted/fileWanted.html)
 
 - How do you indicate the relative link to the same directory?
   file.html

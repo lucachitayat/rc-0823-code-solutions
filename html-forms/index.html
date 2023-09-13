@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="/my-handling-form-page" method="post">
+      <label for="user_email">
+        Email
+        <br />
+        <input type="email" id="email_input" name="user_email" />
+      </label>
+
+      <br />
+      <label for="reason_for_coding">
+        Why is coding cool?
+        <br />
+        <select id="reason_for_coding">
+          <option>Select an option</option>
+          <option>Because it's interesting</option>
+          <option>Because it's powerful</option>
+          <option>Because it's fun</option>
+        </select>
+      </label>
+      <br />
+      <p>Favorite Language (choose one)</p>
+
+      <label for="htmlSelection">
+        <input
+          name="favoritelanguage"
+          type="radio"
+          value="HTML"
+          id="htmlSelection" />
+        HTML
+      </label>
+
+      <label for="cssSelection">
+        <input
+          name="favoritelanguage"
+          id="cssSelection"
+          type="radio"
+          value="CSS" />
+        CSS
+      </label>
+
+      <label for="javascriptSelection">
+        <input
+          name="favoritelanguage"
+          id="javasriptSelection"
+          type="radio"
+          value="JavaScript" />
+        JavaScipt
+      </label>
+
+      <p>Would you like to sign up for more information?</p>
+      <label for="emailSignUp">
+        <input type="checkbox" id="emailSignUp" value="yes" />
+        Sign me up!
+      </label>
+      <br />
+      <label for="user_comments"> Comments </label>
+      <br />
+      <textarea cols="30" rows="8" id="user_comments"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
